@@ -3,7 +3,7 @@ The page for MWC award 6c: Best Technology Enabler.
 
 # Experiment
 
-This experiment will show the perofmance improvement by Skymizer on different benchmarks and hardware platforms. The detailed information of benchmarks and platforms used in experiment are shown in Table 1 and Table 2. In these experiment, all of the benchmarks on different platforms are compiled by Linaro GCC 4.9.3. 
+This experiment will show the perofmance improvement by Skymizer on different benchmarks and hardware platforms. The detailed information of benchmarks and platforms used in experiment are shown in Table 1 and Table 2.
 
 #### Table 1. Benchmark List
 
@@ -23,5 +23,5 @@ Platform | CPU | Memory | OS
 ODROID-U2|Samsung Exynos 4412 ARM Cortex-A9 Quad Core 1.7Ghz |2GB DDR2|Ubuntu 15.10
 Nvidia Jetson TK1|Nvidia T124 ARM Cortex-A15 (4+1) Quad Core 2.32GHz|2GB DDR3|Ubuntu 14.04.1
 
-For performance comparison, we use "-Ofast" compile flag as our performance baseline on each benchmarks and platforms. All reported performance results are normalized
+For performance comparison, we use Linaro GCC compiler version 4.9.3 with "-Ofast" compile flag as our performance baseline on each benchmarks and platforms. All reported performance results are normalized
 to the baseline.
