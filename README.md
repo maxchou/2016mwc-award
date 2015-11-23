@@ -17,8 +17,9 @@ TeleBench (EEMBC) | A suite of benchmarks that allows the users to approximate t
 #### Table 2. Platform List
 
 Platform | CPU | Memory | OS  
----------|-----|--------|---- 
-|
+---------|-----|--------|--- 
+ODROID-U2|Samsung Exynos 4412 ARM Cortex-A9 Quad Core 1.7Ghz |2GB DDR2|Ubuntu 15.10
+Nvidia Jetson TK1|Nvidia T124 ARM Cortex-A15 (4+1) Quad Core 2.32GHz|2GB DDR3|Ubuntu 14.04.1
 
 For performance comparison, we use "-Ofast" compile flag as our performance baseline on each benchmarks and platforms. All reported performance results are normalized
 to the baseline.
